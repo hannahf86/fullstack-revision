@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2C572;
+    color: #4A4873;
+}
+
 /* FONTS */
 h1 {
     font-family: "kallisto", sans-serif;

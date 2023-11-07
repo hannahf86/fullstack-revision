@@ -11,7 +11,7 @@ const Nav = () => {
 
     const styles = {
         container: 'fixed w-full h-[6em] flex justify-between items-center px-4 bg-[#F2C572]',
-        item: 'text-[#4A4873] flex items-center px-6',
+        text: 'text-[#4A4873] flex items-center px-6 font-bold',
         desktopMenu: 'hidden md:flex',
         hamburger: 'md:hidden z-10 text-[#4A4873] m-2 cursor-pointer',
         mobileMenu: 'absolute top-0 left-0 w-full h-screen bg-[#F2C572] flex flex-col justify-center items-center',
@@ -32,9 +32,9 @@ const Nav = () => {
 
                 {/* MENU */}
                 <ul className={styles.desktopMenu}>
-                    <li className={styles.item}>START</li>
-                    <li className={styles.item}>LEVEL ONE</li>
-                    <li className={styles.item}>LEVEL TWO</li>
+                    <li className={styles.text}>START</li>
+                    <li className={styles.text}>LEVEL ONE</li>
+                    <li className={styles.text}>LEVEL TWO</li>
                 </ul>
 
                 {/* HAMBURGER */}
